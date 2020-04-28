@@ -9,7 +9,6 @@ body{
     background-image: url('bg.png');
     background-size: cover;
     background-position: top center;
-    overflow: hidden;
 }
 
 .app-wrap{
@@ -93,7 +92,7 @@ main{
     text-shadow: 0px 4px rgba(0,0,0,.4);
 }
 
-section {
+footer {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -104,13 +103,13 @@ section {
     font-size: 20px;
 }
   
-section p {
+footer p {
     padding: 30px 0 0 0;
     text-shadow: 2px 2px 3px #bfbfbf;
 }
 
 @media(max-width: 576px){
-    section{
+    footer{
         font-size: 16px;
     }
 }
